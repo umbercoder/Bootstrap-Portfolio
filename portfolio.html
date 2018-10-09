@@ -1,66 +1,74 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html lang="en-us">
-
 <head>
-  <meta charset="UTF-8">
-  <title>Portolio</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <meta charset="/UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">         
 </head>
+<body>
+    <header>
+        <div class="headerGroup">
+            <div class="headerBackground">
+                <h1>Brietta Smith</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-
-  <ul class="nav justify-content-end"></ul>
-    <ul class="nav nav-pills">
-        <li class="nav-item">
-        <a class="nav-link active" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-        </li>   
-    </ul>
-</ul>
-
-<div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
-
-      <div class="work">
-        <img src="photos/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
-        
-        <h3>Word Guess</h3>
-      </div>
-      <div class="work">
-        <img src="photos/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
-
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="photos/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
-
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="photos/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
-
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="photos/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-
-        <h3>Rock Paper Scissors</h3>
-      </div>
-
-    </section>
-
-  </div>
-
-  <footer>
     <div class="container">
-      Copyright &copy; 
-    </div>
-  </footer>
-</body>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="largeLine"></div>
+                <div class="grid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <a href="#"><img src="assets/images/gallery1.jpg" alt="Background Technology Photo for Hangman"></a>
+                            <a href="#"><div class="galleryLabel"><h4>Hangman</h4></div></a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="#"><img src="assets/images/gallery2.jpg" alt="Background Technology Photo for RPG Game"></a>
+                            <a href="#"><div class="galleryLabel"><h4>RPG Game</h4></div></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <a href="#"><img src="assets/images/trivia.jpg" alt="Background Technology Photo for Trivia Game"></a>
+                            <a href="#"><div class="galleryLabel"><h4>Trivia Game</h4></div></a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="#"><img src="assets/images/gallery4.jpg" alt="Background Technology Photo for Rutgers Info Widget"></a>
+                            <a href="#"><div class="galleryLabel"><h4>Rutgers Info Widget</h4></div></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <a href="#"><img src="assets/images/gallery5.jpg" alt="Background Technology Photo for Rock Paper Scissors"></a>
+                            <a href="#"><div class="galleryLabel"><h4>Rock Paper Scissors</h4></div></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <section class="ConnectWithMe">
+                <h3>Connect with Me</h3>
+                <div class="smallLine"></div>
+                <div class="imageContainer">
+                    <a target="_blank" href="https://github.com/umbercoder"><img src="https://png.icons8.com/nolan/50/000000/github.png"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/Brietta-Smith"><img src="https://png.icons8.com/nolan/50/000000/linkedin.png"></a>
+                </div>
+            </section>
+    </div>
+    <footer>
+        <p>Copyright 2018 Brietta Smith</p>
+    </footer>
+</body>
 </html>
